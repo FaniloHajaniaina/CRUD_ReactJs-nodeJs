@@ -1,0 +1,37 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin-top: -8rem;
+}
+
+.content {
+    text-align: center;
+}
+
+h1 {
+    font-size: 5rem;
+    margin-bottom: 2rem;
+    color: blanchedalmond;
+}
+h3 {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    color: beige;
+}
+
+.get-started-btn {
+    padding: 10px 20px;
+    background-color: orange;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.get-started-btn:hover {
+    background-color: darkorange;
+}
